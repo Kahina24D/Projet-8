@@ -41,14 +41,21 @@
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 		</div>
 		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100" alt="...">
+			
+			<div class="carousel-item active" aria-live="polite">
+				<picture>
+					<source srcset="./assets/images/slider/pieton.webp 575w, ./assets/images/slider/pieton.webp 1920w" sizes="(max-width: 575px) 575px, 1920px" type="image/webp"/>
+					<img src="./assets/images/slider/pieton.jpg" class="d-block w-100" alt="pieton traverse la rue" itemprop="image" aria-roledescription="slide" aria-label="image 1">
+				</picture>
+				
 			</div>
-			<div class="carousel-item">
-				<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg" class="d-block w-100" alt="...">
+
+			<div class="carousel-item" aria-live="polite">
+				<img src="./assets/images/slider/foule.jpg" class="d-block w-100" alt="une foule de personnes en fete">
 			</div>
-			<div class="carousel-item">
-				<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" class="d-block w-100" alt="...">
+
+			<div class="carousel-item" aria-live="polite">
+				<img src="./assets/images/slider/couple.jpg" class="d-block w-100" alt="un couple dance ">
 			</div>
 		</div>
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
