@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
@@ -53,7 +53,7 @@
 				
 					<picture>
 						<source srcset="./assets/images/slider/foule.webp 575w, ./assets/images/slider/pieton.webp 1920w" sizes="(max-width: 575px) 575px, 1920px" type="image/webp"/>
-						<img src="./assets/images/slider/pieton.jpg" class="d-block w-100" alt="des gens font la fete" loading="lazy" >
+						<img src="./assets/images/slider/pieton.jpg" class="d-block w-100" alt="des gens font la fete" itemprop="image" loading="lazy" >
 					</picture>
 					
 				
@@ -63,14 +63,14 @@
 			<div class="carousel-item" aria-live="polite">
 				<picture>
 					<source srcset="./assets/images/slider/foule.webp 575w, ./assets/images/slider/foule.webp 1920w" sizes="(max-width: 575px) 575px, 1920px" type="image/webp"/>
-					<img src="./assets/images/slider/foule.jpg" class="d-block w-100" alt="des gens font la fete" loading="lazy" >
+					<img src="./assets/images/slider/foule.jpg" class="d-block w-100" alt="des gens font la fete" itemprop="image" loading="lazy" >
 				</picture>
 			</div>
 
 			<div class="carousel-item" aria-live="polite">
 				<picture>
 				<source srcset="./assets/images/slider/couple.webp 575w, ./assets/images/slider/couple.webp 1920w" sizes="(max-width: 575px) 575px, 1920px" type="image/webp"/>
-				<img src="./assets/images/slider/couple.jpg" class="d-block w-100" alt="couple qui dance"  loading="lazy" >
+				<img src="./assets/images/slider/couple.jpg" class="d-block w-100" alt="couple qui dance" itemprop="image" loading="lazy" >
 			</picture>
 			</div>
 		</div>
@@ -111,9 +111,12 @@
 			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="images 2 entreprises" loading="lazy"/>
 			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="image de mariage" loading="lazy"/>
 			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="image portrait" loading="lazy"/>
-		      <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" 
+			<picture>
+				<source srcset="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-480.webp" media="(max-width: 480px)">
+				<source srcset="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-800.webp" media="(max-width: 800px)">
+				<img src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" 
 					 alt="images 2 entreprises" class="gallery-item img-fluid" loading="lazy">
-		
+			  </picture>
 			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" alt="images portrait" loading="lazy"/>
 			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="images concert" loading="lazy"/>
 			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="images entreprises" loading="lazy"/>
