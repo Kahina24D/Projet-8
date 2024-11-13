@@ -3,10 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+	
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+	<link rel="preload" href="bootstrap.min.css" as="style">
 	<link rel="stylesheet" href="./assets/style.min.css">
 
 
@@ -68,10 +68,12 @@
 			</div>
 
 			<div class="carousel-item" aria-live="polite">
-				<picture>
-				<source srcset="./assets/images/slider/couple.webp 575w, ./assets/images/slider/couple.webp 1920w" sizes="(max-width: 575px) 575px, 1920px" type="image/webp"/>
-				<img src="./assets/images/slider/couple.jpg" class="d-block w-100" alt="couple qui dance"  loading="lazy" >
-			</picture>
+				<img src="https://kahina24d.github.io/Projet-8/assets/images/slider/pieton.webp"
+     class="d-block w-100"
+     alt="des gens font la fete"
+     width="1200" height="800"
+     loading="eager">
+
 			</div>
 		</div>
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
