@@ -52,8 +52,8 @@
 			<div class="carousel-item active" aria-live="polite">
 				<picture>
 					<picture>
-						<source srcset="assets/images/slider/pieton.webp 1920w, assets/images/slider/pieton-800.webp 800w" sizes="(max-width: 800px) 100vw, 1920px" type="image/webp" />
-						<img src="assets/images/slider/pieton.jpg" class="d-block w-100" alt="pieton traverse la rue" itemprop="image" loading="lazy">
+						<source srcset="./assets/images/slider/foule.webp 575w, ./assets/images/slider/pieton.webp 1920w" sizes="(max-width: 575px) 575px, 1920px" type="image/webp"/>
+						<img src="./assets/images/slider/pieton.jpg" class="d-block w-100" alt="des gens font la fete" itemprop="image" loading="lazy" >
 					</picture>
 					
 				</picture>
@@ -89,7 +89,7 @@
 	<div class="picture left">
 		
 		
-			<img src="./assets/images/nina.webp" alt="la-photo-about-img-left"  media="(max-width: 600px)" loading="eager">
+			<img src="./assets/images/nina.webp" alt="la-photo-about-img-left"  loading="eager">
 		 
 	</div>
 	<div id="about-me">
@@ -111,7 +111,23 @@
 			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="images 2 entreprises" loading="lazy"/>
 			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="image de mariage" loading="lazy"/>
 			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="image portrait" loading="lazy"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp"  alt="image mariages 2" loading="lazy"/>
+			<picture>
+				<source 
+				  srcset="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" 
+				  type="image/webp">
+				<source 
+				  srcset="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg" 
+				  type="image/jpeg">
+				<img 
+				  data-gallery-tag="Mariages" 
+				  class="gallery-item img-fluid" 
+				  src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg" 
+				  alt="image mariages 2" 
+				  loading="lazy" 
+				  width="600" 
+				  height="400">
+			  </picture>
+			  
 			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" alt="images portrait" loading="lazy"/>
 			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="images concert" loading="lazy"/>
 			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="images entreprises" loading="lazy"/>
