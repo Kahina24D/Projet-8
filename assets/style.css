@@ -48,6 +48,7 @@ body {
 	display: flex;
 	position: relative;
 	justify-content: center; /* Centrer le contenu */
+	min-height: 300px;
 	
   }
   
@@ -157,6 +158,8 @@ body {
 	width: 70%;
 	margin: auto;
 	padding-block: 3em;
+	padding: 20px;
+	box-sizing: border-box;
 }
 .quote__text {
 	font-family: Spectral;
