@@ -103,7 +103,9 @@ body {
 	font-size: 14px;
 }
 
-
+#gallery {
+	/*	min-height: 100vh; */
+}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -135,7 +137,7 @@ body {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	
+	padding: .5em;
 }
 .img-fluid{
 	max-width: 100%;
@@ -156,8 +158,8 @@ body {
 	width: 70%;
 	margin: auto;
 	padding-block: 3em;
-	padding: 20px;
-	box-sizing: border-box;
+	 padding: 20px;
+  box-sizing: border-box;
 }
 .quote__text {
 	font-family: Spectral;
