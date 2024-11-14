@@ -1,6 +1,6 @@
 body {
-	max-width: 1920px;
-	margin: auto;
+	margin: 0; /* Supprime les marges externes */
+	padding: 0;
 }
 * {
 	font-family: 'Inter';
@@ -43,12 +43,24 @@ body {
 }
 
 #about {
+	width: 100vw; /* Prend toute la largeur de la fenêtre */
+	background-color: #F6D2B8; /* Couleur de fond */
 	display: flex;
-	background-color: #F6D2B8;
-	padding-inline: 100px;
-	padding-block: 100px;
 	position: relative;
-}
+	justify-content: center; /* Centrer le contenu */
+	
+  }
+  
+
+  .about-content {
+
+	width: 100%; /* S'adapte à l'écran */
+	padding-inline: 100px; /* Paddings internes pour le contenu */
+	padding-block: 100px;
+	display: flex;
+	gap: 20px; /* Ajoute de l'espace entre les enfants */
+  }
+  
 
 .picture.left::before {
 	content: ' ';
