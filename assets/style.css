@@ -41,7 +41,10 @@ body {
 .social-link img {
 	width: 20px;
 }
-
+.d-block.w-100 {
+	width: 100%;
+	height: auto; /* Maintient les proportions */
+  }
 #about {
 	width: 100vw; /* Prend toute la largeur de la fenêtre */
 	background-color: #F6D2B8; /* Couleur de fond */
@@ -81,8 +84,8 @@ body {
 }
 
 .picture img {
-	width: 100%;
-	height: auto;
+	width: 440px;
+	height: 440px;
 
 }
 #about-me {
