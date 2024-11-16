@@ -116,6 +116,12 @@ body {
 	height: 440px;
 
 }
+.carousel-item picture{
+	display: block;
+  width: 100%;
+  height: auto;
+
+}
 .title{
 	text-align: center;
 	padding-block: 2em;
