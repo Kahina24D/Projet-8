@@ -65,8 +65,7 @@
         alt="homme traverse la rue" 
         class="d-block w-100" 
         itemprop="image" 
-		width="1200" 
-		height="800"
+		loading="lazy"
        >
 					</picture>
 					
@@ -76,14 +75,28 @@
 
 			<div class="carousel-item" aria-live="polite">
 				<picture>
-					<source srcset="./assets/images/slider/foule.webp 575w, ./assets/images/slider/foule.webp 1920w" sizes="(max-width: 575px) 575px, 1920px" type="image/webp"/>
-					<img src="./assets/images/slider/foule.webp" class="d-block w-100" alt="des gens font la fete" itemprop="image" >
+					<source 
+        srcset="
+            https://kahina24d.github.io/Projet-8/assets/images/slider/foule.webp 320w,
+            https://kahina24d.github.io/Projet-8/assets/images/slider/foule.webp 768w,
+            https://kahina24d.github.io/Projet-8/assets/images/slider/foule.webp 1200w
+        " 
+        sizes="(max-width: 575px) 100vw, (max-width: 768px) 50vw, 1200px" 
+        type="image/jpeg">
+					<img src="./assets/images/slider/foule.webp" class="d-block w-100" alt="des gens font la fete" itemprop="image" loading="lazy" >
 				</picture>
 			</div>
 
 			<div class="carousel-item" aria-live="polite">
 				<picture>
-				<source srcset="./assets/images/slider/couple.webp 575w, ./assets/images/slider/couple.webp 1920w" sizes="(max-width: 575px) 575px, 1920px" type="image/webp"/>
+		<source 
+        srcset="
+            https://kahina24d.github.io/Projet-8/assets/images/slider/couple.webp 320w,
+            https://kahina24d.github.io/Projet-8/assets/images/slider/couple.webp 768w,
+            https://kahina24d.github.io/Projet-8/assets/images/slider/couple.webp 1200w
+        " 
+        sizes="(max-width: 575px) 100vw, (max-width: 768px) 50vw, 1200px" 
+        type="image/jpeg">
 				<img src="./assets/images/slider/couple.webp" class="d-block w-100" alt="couple qui dance" itemprop="image"  >
 			</picture>
 			</div>
