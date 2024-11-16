@@ -7,7 +7,7 @@
 
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="stylesheet" href="./assets/style.min.css">
 
 
 	
@@ -17,7 +17,7 @@
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
 	<script src="./assets/maugallery.min.js" defer></script>
-	<script src="./assets/scripts.js" defer></script>
+	<script src="./assets/scriptsc.min.js" defer></script>
 	<title>Nina Caducci,Photographe a Bordeaux et ile-de-France</title>
 	<meta name="descreption" content="une presentation de mon travail de photographe et une grille de mes tarifs.">
 </head>
@@ -52,8 +52,20 @@
 			<div class="carousel-item active" aria-live="polite">
 				
 					<picture>
-						<source srcset="./assets/images/slider/foule.webp 575w, ./assets/images/slider/pieton.webp 1920w" sizes="(max-width: 575px) 575px, 1920px" type="image/webp"/>
-						<img src="./assets/images/slider/pieton.jpg" class="d-block w-100" alt="des gens font la fete" itemprop="image" loading="lazy" >
+						<source 
+        srcset="
+            https://kahina24d.github.io/Projet-8/assets/images/slider/pieton.jpg 320w,
+            https://kahina24d.github.io/Projet-8/assets/images/slider/pieton.jpg 768w,
+            https://kahina24d.github.io/Projet-8/assets/images/slider/pieton.jpg 1200w
+        " 
+        sizes="(max-width: 575px) 100vw, (max-width: 768px) 50vw, 1200px" 
+        type="image/jpeg">
+    <img 
+        src="https://kahina24d.github.io/Projet-8/assets/images/slider/pieton.jpg" 
+        alt="des gens font la fête" 
+        class="d-block w-100" 
+        itemprop="image" 
+        loading="lazy">
 					</picture>
 					
 				
@@ -63,7 +75,7 @@
 			<div class="carousel-item" aria-live="polite">
 				<picture>
 					<source srcset="./assets/images/slider/foule.webp 575w, ./assets/images/slider/foule.webp 1920w" sizes="(max-width: 575px) 575px, 1920px" type="image/webp"/>
-					<img src="./assets/images/slider/foule.jpg" class="d-block w-100" alt="des gens font la fete" itemprop="image"  >
+					<img src="./assets/images/slider/foule.jpg" class="d-block w-100" alt="des gens font la fete" itemprop="image" loading="lazy" >
 				</picture>
 			</div>
 
@@ -90,15 +102,15 @@
 	  <div class="picture left">
 		<picture>
   <source srcset="
-    ./assets/images/nina-200.webp 200w,
-    ./assets/images/nina-400.webp 400w,
-    ./assets/images/nina-800.webp 800w
+    ./assets/images/nina.webp 200w,
+    ./assets/images/nina.webp 400w,
+    ./assets/images/nina.webp 800w
   " sizes="(max-width: 600px) 100vw, 50vw" type="image/webp">
   <img 
-    src="./assets/images/nina-400.webp" 
+    src="./assets/images/nina.webp" 
     alt="Description de l'image" 
     width="400" 
-    height="600" 
+    height="400" 
     loading="lazy">
 </picture>
 
