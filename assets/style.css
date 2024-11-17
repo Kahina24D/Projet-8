@@ -83,11 +83,7 @@ body {
 	z-index: 0;
 }
 
-.picture img {
-	width: 440px;
-	height: 440px;
 
-}
 #about-me {
 	flex: 2
 }
@@ -111,11 +107,7 @@ body {
 	flex-direction: column;
 	gap: 0.5rem;
 }
-#gallery img{
-	width: 440px;
-	height: 440px;
 
-}
 .carousel-item picture{
 	display: block;
   width: 100%;
@@ -293,7 +285,7 @@ input[type="submit"] {
 		z-index: -1;
 	}
 	.picture{
-		background-color: red;
+	
 		display: block;
 		margin: auto;
 	}
