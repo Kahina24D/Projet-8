@@ -435,6 +435,7 @@ input[type="submit"] {
 		width: 450px;
 		height: auto;
 		object-fit: cover; /* ou "cover", selon vos besoins */
+		padding: 1rem;
 
 	}
 }
