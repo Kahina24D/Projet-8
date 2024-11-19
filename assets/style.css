@@ -81,13 +81,13 @@ body {
 	flex: 1;
 	margin: 0 20px;
 	z-index: 0;
+	
 }
-
-.picture img {
-	width: 440px;
-	height: 440px;
-	display: block;
-	margin: auto;
+.picture img{
+	width: 350px;
+	height: 350px;
+      margin: auto;
+	  padding: 0;
 
 }
 #about-me {
@@ -286,12 +286,7 @@ input[type="submit"] {
 		left: 0;
 		z-index: -1;
 	}
-	.picture img{
-	
-		display: block;
-		margin: auto;
-		width: 400px;
-	}
+
 .about-me__title{
 	text-align: center;
 	padding: 0.5rem;
@@ -413,13 +408,7 @@ input[type="submit"] {
 		height: 100%; /* ou une hauteur spécifique */
 		padding: 1rem;
 	}
-	.picture.left img {
-		width: 450px;
-		height: auto;
-		object-fit: cover; /* ou "cover", selon vos besoins */
-		padding: 1rem;
-
-	}
+	
 	
 	
 

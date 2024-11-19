@@ -9,10 +9,10 @@
 	<link rel="preload" as="image" href="./assets/images/slider/1440/ryoji-1440.webp" type="image/webp">
 
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="stylesheet" href="./assets/style.min.css"  media="all">
 	<link rel="preload" as="image" href="./assets/images/nina.webp">
 	<!-- <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style" -->
-		<!-- onload="this.rel='stylesheet'"> -->
+	<!-- onload="this.rel='stylesheet'"> -->
 
 
 
@@ -20,11 +20,7 @@
 	<meta name="keywords"
 		content="photographe,photographie,evenement,edition,traitement,portfolio,portrait,trifs,Bordeaux">
 
-	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
-	<script src="./assets/maugallery.min.js" defer></script>
-	<script src="./assets/scriptsc.min.js" defer></script>
+	
 	<title>Nina Caducci,Photographe a Bordeaux et ile-de-France</title>
 	<meta name="descreption" content="une presentation de mon travail de photographe et une grille de mes tarifs.">
 </head>
@@ -117,8 +113,10 @@
 		<section id="about">
 			<div class="about-content">
 				<div class="picture left">
-					<img src="./assets/images/nina.webp" width="560" height="558" 
-						alt="Portrait carré de Nina Carducci, photographe à Bordeaux">
+				
+					<img src="./assets/images/nina.webp" alt="Portrait carré de Nina Carducci, photographe à Bordeaux" loading="eager">
+
+					
 
 				</div>
 				<div id="about-me">
@@ -254,12 +252,16 @@
 				</form>
 			</div>
 			<div class="picture right">
-				<img src="./assets/images/camera.webp " width="560" height="558" style="max-width: 100%; height: auto;"
-					alt="camera ">
+				<img src="./assets/images/camera.webp" width="419" height="418" style="max-width: 100%; height: auto;" alt="Appareil photo">
 			</div>
 		</div>
 
 	</footer>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" ></script>
+	<script src="./assets/maugallery.min.js" defer></script>
+	<script src="./assets/scriptsc.min.js" defer></script>
 </body>
 
 </html>
